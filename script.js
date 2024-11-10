@@ -2,8 +2,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const cards = document.querySelectorAll('.card');
     const message = document.getElementById('message');
     const targetEmoji = document.getElementById('target-emoji');
+    
     const stats = document.getElementById('stats');
     const winningIndex = Math.floor(Math.random() * cards.length);
+
     let tries = 3;
     let canClick = true;
 
