@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.add('revealed');
 
             if (card.classList.contains('winning')) {
-                message.textContent = 'Congratulations! You found the winning emoji!';
+                message.textContent = 'Congratulations! You found the winning emoji! Press R to play again.';
                 gamesWon++;
                 localStorage.setItem('gamesWon', gamesWon);
                 disableAllCards();
